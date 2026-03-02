@@ -36,10 +36,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A100FFF6 = {
+		A100FFF6 /* Main Group */ = {
 			isa = PBXGroup;
 			children = (
-				A1000001 /* TideStack */,
+				A100FFF0 /* TideStack */,
 				A1FFFFFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1000001 /* TideStack */ = {
+		A100FFF0 /* TideStack */ = {
 			isa = PBXGroup;
 			children = (
 				A1000000 /* TideStackApp.swift */,
@@ -355,5 +355,5 @@
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A100FFF7 /* Project object */;
+	rootObject = A100FFF7;
 }
