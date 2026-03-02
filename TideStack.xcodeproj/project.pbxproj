@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* TideStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000 /* TideStackApp.swift */; };
-		A1000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002 /* ContentView.swift */; };
-		A1000005 /* TideStackGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004 /* TideStackGameScene.swift */; };
-		A1000007 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006 /* SoundManager.swift */; };
-		A1000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000008 /* Assets.xcassets */; };
-		A100000C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000B /* Preview Assets.xcassets */; };
+		A1010001 /* TideStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010000 /* TideStackApp.swift */; };
+		A1010003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010002 /* ContentView.swift */; };
+		A1010005 /* TideStackGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010004 /* TideStackGameScene.swift */; };
+		A1010007 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010006 /* SoundManager.swift */; };
+		A1010009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1010008 /* Assets.xcassets */; };
+		A101000C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A101000B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1FFFFFF /* TideStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TideStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1000000 /* TideStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStackApp.swift; sourceTree = "<group>"; };
-		A1000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1000004 /* TideStackGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStackGameScene.swift; sourceTree = "<group>"; };
-		A1000006 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		A1000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A100000B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A101FFFE /* TideStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TideStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1010000 /* TideStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStackApp.swift; sourceTree = "<group>"; };
+		A1010002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1010004 /* TideStackGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStackGameScene.swift; sourceTree = "<group>"; };
+		A1010006 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		A1010008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A101000B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A100FFFC /* Frameworks */ = {
+		A101FFFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A100FFF6 /* Main Group */ = {
+		A101FFF5 = {
 			isa = PBXGroup;
 			children = (
-				A100FFF0 /* TideStack */,
-				A1FFFFFF /* Products */,
+				A101FFFD /* TideStack */,
+				A101FFFE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1FFFFFF /* Products */ = {
+		A101FFFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFFFFF /* TideStack.app */,
+				A101FFFE /* TideStack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A100FFF0 /* TideStack */ = {
+		A101FFFD /* TideStack */ = {
 			isa = PBXGroup;
 			children = (
-				A1000000 /* TideStackApp.swift */,
-				A1000002 /* ContentView.swift */,
-				A1000004 /* TideStackGameScene.swift */,
-				A1000006 /* SoundManager.swift */,
-				A1000008 /* Assets.xcassets */,
-				A100000A /* Preview Content */,
+				A1010000 /* TideStackApp.swift */,
+				A1010002 /* ContentView.swift */,
+				A1010004 /* TideStackGameScene.swift */,
+				A1010006 /* SoundManager.swift */,
+				A1010008 /* Assets.xcassets */,
+				A101000A /* Preview Content */,
 			);
 			path = TideStack;
 			sourceTree = "<group>";
 		};
-		A100000A /* Preview Content */ = {
+		A101000A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A100000B /* Preview Assets.xcassets */,
+				A101000B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A100FFFE /* TideStack */ = {
+		A101FFFF /* TideStack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000012 /* Build configuration list for PBXNativeTarget "TideStack" */;
+			buildConfigurationList = A1010012 /* Build configuration list for PBXNativeTarget "TideStack" */;
 			buildPhases = (
-				A100FFFB /* Sources */,
-				A100FFFC /* Frameworks */,
-				A100FFFD /* Resources */,
+				A101FFFA /* Sources */,
+				A101FFFB /* Frameworks */,
+				A101FFFC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,25 +90,25 @@
 			);
 			name = TideStack;
 			productName = TideStack;
-			productReference = A1FFFFFF /* TideStack.app */;
+			productReference = A101FFFE /* TideStack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A100FFF7 /* Project object */ = {
+		A101FFF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A100FFFE = {
+					A101FFFF = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A100FFFA /* Build configuration list for PBXProject "TideStack" */;
+			buildConfigurationList = A101FFF9 /* Build configuration list for PBXProject "TideStack" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = A100FFF6;
-			productRefGroup = A1FFFFFF /* Products */;
+			mainGroup = A101FFF5;
+			productRefGroup = A101FFFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A100FFFE /* TideStack */,
+				A101FFFF /* TideStack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A100FFFD /* Resources */ = {
+		A101FFFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100000C /* Preview Assets.xcassets in Resources */,
-				A1000009 /* Assets.xcassets in Resources */,
+				A101000C /* Preview Assets.xcassets in Resources */,
+				A1010009 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A100FFFB /* Sources */ = {
+		A101FFFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000005 /* TideStackGameScene.swift in Sources */,
-				A1000007 /* SoundManager.swift in Sources */,
-				A1000001 /* TideStackApp.swift in Sources */,
-				A1000003 /* ContentView.swift in Sources */,
+				A1010005 /* TideStackGameScene.swift in Sources */,
+				A1010007 /* SoundManager.swift in Sources */,
+				A1010001 /* TideStackApp.swift in Sources */,
+				A1010003 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1000010 /* Debug */ = {
+		A101000E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		A1000011 /* Release */ = {
+		A101000F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 			};
 			name = Release;
 		};
-		A1000013 /* Debug */ = {
+		A1010011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		A1000014 /* Release */ = {
+		A1010013 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A100FFFA /* Build configuration list for PBXProject "TideStack" */ = {
+		A101FFF9 /* Build configuration list for PBXProject "TideStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000010 /* Debug */,
-				A1000011 /* Release */,
+				A101000E /* Debug */,
+				A101000F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000012 /* Build configuration list for PBXNativeTarget "TideStack" */ = {
+		A1010012 /* Build configuration list for PBXNativeTarget "TideStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000013 /* Debug */,
-				A1000014 /* Release */,
+				A1010011 /* Debug */,
+				A1010013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A100FFF7;
+	rootObject = A101FFF6;
 }
